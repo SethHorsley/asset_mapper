@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
+    "save_cookies": "node loginAndSaveCookies.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.1",
+    "dotenv": "^16.3.1",
+    "otplib": "^12.0.1",
     "puppeteer": "^21.5.1",
     "source-map": "^0.7.4"
   }

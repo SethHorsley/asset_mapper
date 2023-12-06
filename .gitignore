@@ -1,3 +1,5 @@
 node_modules
 downloaded
 reconstructed
+.env
+github-cookies.json
